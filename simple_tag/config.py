@@ -9,7 +9,7 @@ PROTOCOL = 'simple-tag-1v1-v1'
 class Config:
     num_envs: int = 8
     max_cycles: int = 100
-    total_interactions: int = 100000
+    total_interactions: int = 40000
     clone_capacity: int = 100000
     clone_interval: int = 1000
     eval_interval: int = 1000

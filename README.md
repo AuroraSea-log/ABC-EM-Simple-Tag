@@ -38,7 +38,7 @@ its actions are sampled from the categorical policy.
 
 ## Method
 
-A run collects 100,000 pursuer state/action pairs. Every 1,000 interactions it
+A run collects 40,000 pursuer state/action pairs. Every 1,000 interactions it
 collects with the current evader, fits a clone and selects it by held-out NLL,
 refreshes visitation counts and relabels the replay, then trains the evader
 controller against the frozen reward. With `p` the current clone, `p_prev` the
